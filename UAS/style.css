@@ -1,0 +1,187 @@
+nav{
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.nav-item{
+    padding-left: 30px;
+}
+.jumbotron {
+    
+ 
+    background-color: rgb(46, 46, 44);
+    padding: 50px;
+}
+
+.container-item {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px;
+}
+
+.grid-item {
+
+    border: 1px solid rgba(181, 181, 181, 0.8);
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    width: 225px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.detail {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 30px; 
+    margin-top :10px;
+
+}
+footer p {
+    color: #fff;
+}
+.col-4{
+    float: left;
+    width: 25%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.profile .atas{
+   font-size: 32px;
+   font-weight: 600;
+}
+.profile .bawah{
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ #banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 40px;
+ }
+
+ #banner3 .banner-box {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(gmbr/ff2.jpg);
+    min-width: 32%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#banner3 .banner-box3 {
+    background-image: url(gmbr/visor.jpg);
+}
+
+#banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    font-size: 15px;
+}
+
+/* Syarat dan Ketentuan Page */
+
+#syarat { padding:  40px 80px;
+    display: block;
+ }
+ 
+ #syarat .sya h1{
+     font-size: 48px;
+     font-weight: bold;
+     margin-bottom: 15px;
+ }
+ 
+ #syarat .sya h5{
+     font-size: 20px;
+     font-weight: lighter;
+ }
+ 
+ #syarat .rat h2{
+     font-size: 40px;
+     font-weight: normal;
+     margin-bottom: 5px;
+ }
+ 
+ #syarat .rat h5{
+     font-size: 20px;
+     font-weight: lighter;
+     margin-bottom: 30px;
+ }
+
+ /* css baru section bwh */
+ #sm-banner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(gmbr/ff2.jpg);
+    min-width: 400px;
+    height: 35vh;
+    background-size: cover;
+    background-position: 20% 30%;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url(gmbr/half.jpg);
+    background-position: 10%;
+}
+#sm-banner .banner-box3 {
+    background-image: url(gmbr/acc.jpg);
+    background-position: 10%;
+}
+
+#sm-banner h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background: #088178;
+    border: 1px solid #088178;
+}

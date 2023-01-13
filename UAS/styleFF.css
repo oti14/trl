@@ -1,0 +1,63 @@
+nav{
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.nav-item{
+    padding-left: 30px;
+}
+.jumbotron {
+    
+    background-color: beige;
+    padding: 50px;
+}
+
+.container-item {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px;
+}
+
+.grid-item {
+
+    border: 1px solid rgba(181, 181, 181, 0.8);
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    width: 225px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.detail {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+footer {
+    background-color: blanchedalmond;
+    height: 30px; 
+    margin-top :10px;
+
+}
+.col-4{
+    float: left;
+    width: 25%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.profile .atas{
+   font-size: 32px;
+   font-weight: 600;
+}
+.profile .bawah{
+    font-size: 18px;
+    font-weight: 400;
+ }
